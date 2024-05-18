@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7.regular.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(0.6) contrast(2);
+}
+.cal{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+button{
+    cursor: pointer;
+    height: 12.5vh;
+    width:100%;
+    border: 0px;
+    border-radius:10px;
+    font-size: 200%;
+}
+.dark-theme-num{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-shadow: 0px 0px 2.5px white;
+    box-shadow: 0px 0px 7px black;
+}
+.dark-theme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:75vh;
+    width:80%;
+    background-color: rgb(54, 54, 54);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 22.5%;
+    box-shadow: 0px 0px 20px rgb(38, 38, 38);
+}
+input{
+    height:15%;
+    width:100%;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+    background-color: grey;
+    padding: 25px;
+    font-weight: normal;
+    font-size: 325%;
+    text-shadow: 0px 0px 6px rgb(64, 64, 64);
+    font-family: "digital-7";
+}
+.dark-theme-operator{
+    background-color: orange;
+}
+.theme{
+    text-shadow: 0px 0px 10px rgb(101, 42, 0);
+    background-color:chocolate;
+}
+.switch{
+    background-color: greenyellow;
+    color: black;
+    text-shadow: 0px 0px 6px rgb(28, 27, 27);
+}
+.bright-theme-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:75vh;
+    width:80%;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 22.5%;
+    box-shadow: 0px 0px 20px wheat;
+}
+.bright-theme-operator{
+    background-color: cyan;
+    color: black;
+}
+.bright-theme-num{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 2.5px rgb(0, 0, 0);
+    box-shadow: 0px 0px 7px rgb(255, 255, 255);
+}

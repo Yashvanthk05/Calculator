@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dark-theme-container" id="contain">
+    <input type="text" id="display" readonly>
+    <div class="cal">
+        <button class="dark-theme-num" onclick="dis(event)">7</button>
+        <button class="dark-theme-num" onclick="dis(event)">8</button>
+        <button class="dark-theme-num" onclick="dis(event)">9</button>
+        <button class="dark-theme-operator" onclick="del()">Del</button>
+        <button class="dark-theme-operator" onclick="erase()">AC</button>
+        <button class="dark-theme-num" onclick="dis(event)">4</button>
+        <button class="dark-theme-num" onclick="dis(event)">5</button>
+        <button class="dark-theme-num" onclick="dis(event)">6</button>
+        <button class="dark-theme-operator" onclick="dis(event)">*</button>
+        <button class="dark-theme-operator" onclick="dis(event)">/</button>
+        <button class="dark-theme-num" onclick="dis(event)">1</button>
+        <button class="dark-theme-num" onclick="dis(event)">2</button>
+        <button class="dark-theme-num" onclick="dis(event)">3</button>
+        <button class="dark-theme-operator" onclick="dis(event)">+</button>
+        <button class="dark-theme-operator" onclick="dis(event)">-</button>
+        <button class="dark-theme-num" onclick="dis(event)">0</button>
+        <button class="dark-theme-num" onclick="dis(event)">.</button>
+        <button class="theme" id="theme">Light</button>
+        <button class="dark-theme-operator" onclick="calculate()">=</button>
+        <button class="switch" onclick="work(event)">ON</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
