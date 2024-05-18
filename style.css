@@ -16,10 +16,9 @@ body{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgb(255, 192, 75);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: brightness(0.6) contrast(2);
 }
 .cal{
     display: grid;
